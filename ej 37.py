@@ -1,0 +1,12 @@
+c= float(input("Ingrese el capital inicial: "))
+i= float(input("Ingrese la tasa de interes: "))
+n= int(input("Ingrese el numero de periodods: "))
+print("Monto final es: ", c*(1+i)**n)
+pregunta= input("Desea hacer otro cálculo?(si/no): ")
+while pregunta== "si":
+    c= float(input("Ingrese el capital inicial: "))
+    i= float(input("Ingrese la tasa de interes: "))
+    n= int(input("Ingrese el numero de periodods: "))
+    print("Monto final es: ", c*(1+i)**n)
+    pregunta= input("Desea hacer otro cálculo?(si/no): ")
+print("Se termina el programa")
